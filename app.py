@@ -11,7 +11,7 @@ st.markdown("Visualización interactiva de datos electorales por candidato y reg
 # --- Cargar datos ---
 @st.cache_data
 def load_data():
-    return pd.read_csv("datos.elecciones.csv")
+    return pd.read_csv("datos_elecciones.csv")
 
 df = load_data()
 
